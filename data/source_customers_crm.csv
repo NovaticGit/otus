@@ -1,4 +1,10 @@
-id,first_name,last_name,age
-106,Mikka,Hakkinen,44
-107,Egor,Titov,55
-108,Bruce,Bayne,66
+id,country,age
+94,RU,43
+95,RU,21
+96,EN,65
+97,IT,22
+98,EN,44
+99,IT,22
+106,IT,27
+107,EN,41
+108,IT,32

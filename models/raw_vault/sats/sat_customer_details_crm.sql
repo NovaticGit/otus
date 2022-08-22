@@ -4,10 +4,10 @@
     )
 }}
 
-{%- set source_model = "v_stg_customers" -%}
+{%- set source_model = "v_stage_customers_crm" -%}
 {%- set src_pk = "CUSTOMER_PK" -%}
 {%- set src_hashdiff = "CUSTOMER_HASHDIFF" -%}
-{%- set src_payload = ["first_name", "last_name", "email"] -%}
+{%- set src_payload = ["age", "country"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
